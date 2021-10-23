@@ -221,6 +221,7 @@ neverallow {
     -appdomain # for oemfs
     -bootanim # for oemfs
     -recovery # for /tmp/update_binary in tmpfs
+    -postinstall # for postinstall scripts in twrp
 } { fs_type -rootfs }:file execute;
 
 #
