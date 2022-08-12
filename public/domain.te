@@ -524,7 +524,6 @@ neverallow { domain recovery_only(`userdebug_or_eng(`-fastbootd')') } contextmou
 # New service_types are defined in {,hw,vnd}service.te and new mappings
 # from service name to service_type are defined in {,hw,vnd}service_contexts.
 neverallow * default_android_service:service_manager *;
-neverallow * default_android_vndservice:service_manager *;
 neverallow * default_android_hwservice:hwservice_manager *;
 
 # Looking up the base class/interface of all HwBinder services is a bad idea.
